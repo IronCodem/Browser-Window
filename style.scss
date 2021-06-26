@@ -13,7 +13,6 @@ body {
   border-top-right-radius: 4px;
 }
 
-/* Container for columns and the top "toolbar" */
 .row {
   padding: 10px;
   background: #f1f1f1;
@@ -38,7 +37,6 @@ body {
   width: 75%;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -55,7 +53,6 @@ body {
   display: inline-block;
 }
 
-/* Style the input field */
 input[type=text] {
   width: 100%;
   border-radius: 3px;
@@ -67,7 +64,6 @@ input[type=text] {
   padding: 5px;
 }
 
-/* Three bars (hamburger menu) */
 .bar {
   width: 17px;
   height: 3px;
